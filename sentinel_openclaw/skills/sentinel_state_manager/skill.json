@@ -1,0 +1,4 @@
+{
+  "name": "load_market_state",
+  "description": "Loads last known market state."
+}
