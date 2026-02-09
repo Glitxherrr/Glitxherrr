@@ -1,0 +1,16 @@
+{
+  "name": "get_market_intelligence",
+  "description": "Returns deterministic market sensor readings derived from OHLCV data.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "symbol": { "type": "string" },
+      "interval": {
+        "type": "string",
+        "enum": ["15m", "1h", "4h"],
+        "default": "1h"
+      }
+    },
+    "required": ["symbol"]
+  }
+}
