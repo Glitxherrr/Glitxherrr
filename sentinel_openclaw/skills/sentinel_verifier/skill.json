@@ -1,0 +1,12 @@
+{
+  "name": "verify_claim",
+  "description": "Verifies factual claims against deterministic market data.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "claim": { "type": "string" },
+      "market_packet": { "type": "object" }
+    },
+    "required": ["claim", "market_packet"]
+  }
+}
